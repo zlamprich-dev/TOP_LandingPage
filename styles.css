@@ -23,6 +23,11 @@ button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
 #heroBtn:hover {
     background-color: #2178a3;
     color: #F9FAF8;
@@ -44,12 +49,14 @@ button:hover {
     align-items: center;
     padding: 0 10px;
     height: 60px;
+    margin-left: 20%;
 }
 
 .navBarRight {
     font-size: 18px;
     display: flex;
     gap: 15px;
+    margin-right: 20%;
 }
 
 #linkLogo {
@@ -130,8 +137,16 @@ button:hover {
 .cardContent div {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 210px;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.cardContent img {
+    width: 210px;
+    padding: 0px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
@@ -148,4 +163,55 @@ button:hover {
 
 #cardThree {
     flex-direction: column;
+}
+
+.fakeQuote {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+#fakeThorQuote {
+    color: #1F2937;
+    padding-top: 80px;
+    font-size: 36px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#thorSignature {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.preFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.preFooterTextBox {
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+#footerHeader {
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+#footerText {
+    color: #F9FAF8;
+}
+
+#actionButton {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
 }
